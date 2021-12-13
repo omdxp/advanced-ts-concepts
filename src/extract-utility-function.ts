@@ -25,3 +25,9 @@ const tripOriginWhole: TripWithOrigin = {
     state: "NY",
   },
 };
+
+const hasOriginRef = (trip: Trip): trip is TripWithOriginRef => {
+  return "originUuid" in trip;
+};
+
+const result = [tripOriginRef, tripOriginWhole].filter(hasOriginRef);
