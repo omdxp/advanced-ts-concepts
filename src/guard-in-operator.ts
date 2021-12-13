@@ -29,9 +29,9 @@ const printDocument = (doc: DeliminatedDocument | PlainTextDocument) => {
   }
 };
 
-printDocument({
-  id: "1",
-  name: "Document 1",
-  description: "This is document 1",
-  deliminated: "This is document 1",
-});
+// printDocument({
+//   id: "1",
+//   name: "Document 1",
+//   description: "This is document 1",
+//   deliminated: "This is document 1",
+// });
