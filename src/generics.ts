@@ -21,9 +21,9 @@ const feature: FeatureTask = {
   type: TaskType.feature,
 };
 
-feature.type = TaskType.bug;
+// feature.type = TaskType.bug;
 
-const invalid: FeatureTask = {
-  name: "invalid",
-  type: TaskType.bug,
-};
+// const invalid: FeatureTask = {
+//   name: "invalid",
+//   type: TaskType.bug,
+// };

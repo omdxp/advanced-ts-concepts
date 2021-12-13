@@ -26,9 +26,9 @@ const carEngine: Engine<Car> = {
   type: "hybrid",
 };
 
-const invalid: Engine<Car> = {
-  type: "petroleum",
-};
+// const invalid: Engine<Car> = {
+//   type: "petroleum",
+// };
 
 type Bicycle = {
   power: "limbs";
@@ -36,7 +36,7 @@ type Bicycle = {
 
 type NoEngine = Engine<Bicycle>;
 
-const noEngine: NoEngine = { type: "limbs" };
+// const noEngine: NoEngine = { type: "limbs" };
 
 const backlog = {
   releases: [
