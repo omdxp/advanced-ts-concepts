@@ -1,0 +1,24 @@
+{
+  "name": "advanced-ts-concepts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "tsc && node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Omar-Belghaouti/advanced-ts-concepts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Omar-Belghaouti/advanced-ts-concepts/issues"
+  },
+  "homepage": "https://github.com/Omar-Belghaouti/advanced-ts-concepts#readme",
+  "devDependencies": {
+    "tslint": "^6.1.3",
+    "typescript": "^4.5.3"
+  }
+}
