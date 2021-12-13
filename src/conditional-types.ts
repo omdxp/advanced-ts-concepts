@@ -37,3 +37,29 @@ type Bicycle = {
 type NoEngine = Engine<Bicycle>;
 
 const noEngine: NoEngine = { type: "limbs" };
+
+const backlog = {
+  releases: [
+    {
+      name: "Sprint 1",
+      epics: [
+        {
+          name: "Account Management",
+          tasks: [
+            {
+              name: "Create account",
+              priority: "high",
+            },
+            {
+              name: "Delete account",
+              priority: "low",
+            },
+          ],
+        },
+      ],
+    },
+  ],
+};
+
+type Unarray<T> = T extends Array<infer U> ? U : T;
+type Release = Unarray<typeof backlog["releases"]>;
